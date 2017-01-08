@@ -22,16 +22,31 @@
 // THE SOFTWARE.
 
 import UIKit
+import MapKit
 
 class MainTableViewController: UITableViewController {
     
     let kCloseCellHeight: CGFloat = 179
     let kOpenCellHeight: CGFloat = 488
 
-    let kRowsCount = 10
+    let kRowsCount = 3
     
     var cellHeights = [CGFloat]()
 
+    // set initial location in Honolulu
+    let initialLocation = CLLocation(latitude: 40.738866, longitude: -73.989506)
+    
+    let regionRadius: CLLocationDistance = 1000
+    
+    func centerMapOnLocation(location: CLLocation) {
+        let coordinateRegion = MKCoordinateRegionMakeWithDistance(location.coordinate,
+                                                                  regionRadius * 2.0, regionRadius * 2.0)
+       // mapView.setRegion(coordinateRegion, animated: true)
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        self.navigationController?.isNavigationBarHidden = false
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -49,7 +64,7 @@ class MainTableViewController: UITableViewController {
     // MARK: - Table view data source
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 10
+        return 3
     }
 
     override func tableView(_ tableView: UITableView, willDisplay cell: UITableViewCell, forRowAt indexPath: IndexPath) {
@@ -70,8 +85,9 @@ class MainTableViewController: UITableViewController {
     }
 
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "FoldingCell", for: indexPath)
-
+        let cell = tableView.dequeueReusableCell(withIdentifier: "FoldingCell", for: indexPath) as! DemoCell
+        cell.openNumberLabel.text = "tacos"
+        
         return cell
     }
     

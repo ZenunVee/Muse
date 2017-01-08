@@ -22,10 +22,12 @@
 // THE SOFTWARE.
 
 import UIKit
+import MapKit
 
 /// UITableViewCell with folding animation
 open class FoldingCell: UITableViewCell {
   
+  @IBOutlet var mapView: MKMapView!
   /// UIView whitch display when cell open
   @IBOutlet weak open var containerView: UIView!
   @IBOutlet weak open var containerViewTop: NSLayoutConstraint!

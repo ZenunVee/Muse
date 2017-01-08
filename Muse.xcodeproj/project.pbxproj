@@ -15,6 +15,30 @@
 		1846E5671E21883C007C2AA9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1846E5651E21883C007C2AA9 /* LaunchScreen.storyboard */; };
 		1846E5721E21883C007C2AA9 /* MuseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1846E5711E21883C007C2AA9 /* MuseTests.swift */; };
 		1846E57D1E21883C007C2AA9 /* MuseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1846E57C1E21883C007C2AA9 /* MuseUITests.swift */; };
+		4024AF6BAF28957AEA9C6A52 /* Pods_MuseTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F07CE0C073AAD7A7761FC236 /* Pods_MuseTests.framework */; };
+		7232A798DD86B11E07EDA90B /* Pods_Muse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BAC73B6636F24E1FF1BB2FA /* Pods_Muse.framework */; };
+		843685191E21A3F500EB3EAD /* MainTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843685181E21A3F500EB3EAD /* MainTableViewController.swift */; };
+		843685261E21A44F00EB3EAD /* OpenSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8436851C1E21A44F00EB3EAD /* OpenSans-Bold.ttf */; };
+		843685271E21A44F00EB3EAD /* OpenSans-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8436851D1E21A44F00EB3EAD /* OpenSans-BoldItalic.ttf */; };
+		843685281E21A44F00EB3EAD /* OpenSans-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8436851E1E21A44F00EB3EAD /* OpenSans-ExtraBold.ttf */; };
+		843685291E21A44F00EB3EAD /* OpenSans-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8436851F1E21A44F00EB3EAD /* OpenSans-ExtraBoldItalic.ttf */; };
+		8436852A1E21A44F00EB3EAD /* OpenSans-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 843685201E21A44F00EB3EAD /* OpenSans-Italic.ttf */; };
+		8436852B1E21A44F00EB3EAD /* OpenSans-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 843685211E21A44F00EB3EAD /* OpenSans-Light.ttf */; };
+		8436852C1E21A44F00EB3EAD /* OpenSans-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 843685221E21A44F00EB3EAD /* OpenSans-LightItalic.ttf */; };
+		8436852D1E21A44F00EB3EAD /* OpenSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 843685231E21A44F00EB3EAD /* OpenSans-Regular.ttf */; };
+		8436852E1E21A44F00EB3EAD /* OpenSans-Semibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 843685241E21A44F00EB3EAD /* OpenSans-Semibold.ttf */; };
+		8436852F1E21A44F00EB3EAD /* OpenSans-SemiboldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 843685251E21A44F00EB3EAD /* OpenSans-SemiboldItalic.ttf */; };
+		843685311E21A46100EB3EAD /* FoldingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843685301E21A46100EB3EAD /* FoldingCell.swift */; };
+		843685331E21A48100EB3EAD /* DemoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843685321E21A48100EB3EAD /* DemoCell.swift */; };
+		843685351E21A87100EB3EAD /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843685341E21A87000EB3EAD /* LoginViewController.swift */; };
+		843685391E21AA0700EB3EAD /* bgVideo.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 843685381E21AA0700EB3EAD /* bgVideo.mp4 */; };
+		8436853B1E21B18000EB3EAD /* SVSlidingPanelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8436853A1E21B17F00EB3EAD /* SVSlidingPanelViewController.swift */; };
+		843685401E21B22000EB3EAD /* SVDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8436853C1E21B22000EB3EAD /* SVDetailViewController.swift */; };
+		843685411E21B22000EB3EAD /* SVMenuOptionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8436853D1E21B22000EB3EAD /* SVMenuOptionManager.swift */; };
+		843685421E21B22000EB3EAD /* SVMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8436853E1E21B22000EB3EAD /* SVMenuViewController.swift */; };
+		843685431E21B22000EB3EAD /* SVViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8436853F1E21B22000EB3EAD /* SVViewController.swift */; };
+		843685451E21CE5400EB3EAD /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 843685441E21CE5400EB3EAD /* MapKit.framework */; };
+		CC5DF704F3A7B6C1C486A262 /* Pods_MuseUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51E3A8E9D74A9DF787678EF3 /* Pods_MuseUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +59,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		00EDEB04DE0C3C30E4018CF4 /* Pods-MuseUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MuseUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MuseUITests/Pods-MuseUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		1846E5561E21883C007C2AA9 /* Muse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Muse.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1846E5591E21883C007C2AA9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1846E55B1E21883C007C2AA9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +74,35 @@
 		1846E5781E21883C007C2AA9 /* MuseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MuseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1846E57C1E21883C007C2AA9 /* MuseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MuseUITests.swift; sourceTree = "<group>"; };
 		1846E57E1E21883C007C2AA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		27F39C8E8D610B02D57742B2 /* Pods-MuseTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MuseTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MuseTests/Pods-MuseTests.release.xcconfig"; sourceTree = "<group>"; };
+		3356EECB444DD9701653AAAF /* Pods-MuseUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MuseUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MuseUITests/Pods-MuseUITests.release.xcconfig"; sourceTree = "<group>"; };
+		4BAC73B6636F24E1FF1BB2FA /* Pods_Muse.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Muse.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		51E3A8E9D74A9DF787678EF3 /* Pods_MuseUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MuseUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		56E4DFEA11A3459DA80CAE37 /* Pods-Muse.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Muse.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Muse/Pods-Muse.debug.xcconfig"; sourceTree = "<group>"; };
+		6467799F8B4A6974EBE0F58A /* Pods-MuseTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MuseTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MuseTests/Pods-MuseTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7FF695A39ECFA5524204F6C9 /* Pods-Muse.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Muse.release.xcconfig"; path = "Pods/Target Support Files/Pods-Muse/Pods-Muse.release.xcconfig"; sourceTree = "<group>"; };
+		843685181E21A3F500EB3EAD /* MainTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTableViewController.swift; sourceTree = "<group>"; };
+		8436851C1E21A44F00EB3EAD /* OpenSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Bold.ttf"; sourceTree = "<group>"; };
+		8436851D1E21A44F00EB3EAD /* OpenSans-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-BoldItalic.ttf"; sourceTree = "<group>"; };
+		8436851E1E21A44F00EB3EAD /* OpenSans-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-ExtraBold.ttf"; sourceTree = "<group>"; };
+		8436851F1E21A44F00EB3EAD /* OpenSans-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		843685201E21A44F00EB3EAD /* OpenSans-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Italic.ttf"; sourceTree = "<group>"; };
+		843685211E21A44F00EB3EAD /* OpenSans-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Light.ttf"; sourceTree = "<group>"; };
+		843685221E21A44F00EB3EAD /* OpenSans-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-LightItalic.ttf"; sourceTree = "<group>"; };
+		843685231E21A44F00EB3EAD /* OpenSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Regular.ttf"; sourceTree = "<group>"; };
+		843685241E21A44F00EB3EAD /* OpenSans-Semibold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-Semibold.ttf"; sourceTree = "<group>"; };
+		843685251E21A44F00EB3EAD /* OpenSans-SemiboldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OpenSans-SemiboldItalic.ttf"; sourceTree = "<group>"; };
+		843685301E21A46100EB3EAD /* FoldingCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoldingCell.swift; sourceTree = "<group>"; };
+		843685321E21A48100EB3EAD /* DemoCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoCell.swift; sourceTree = "<group>"; };
+		843685341E21A87000EB3EAD /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		843685381E21AA0700EB3EAD /* bgVideo.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = bgVideo.mp4; sourceTree = "<group>"; };
+		8436853A1E21B17F00EB3EAD /* SVSlidingPanelViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SVSlidingPanelViewController.swift; sourceTree = "<group>"; };
+		8436853C1E21B22000EB3EAD /* SVDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SVDetailViewController.swift; sourceTree = "<group>"; };
+		8436853D1E21B22000EB3EAD /* SVMenuOptionManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SVMenuOptionManager.swift; sourceTree = "<group>"; };
+		8436853E1E21B22000EB3EAD /* SVMenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SVMenuViewController.swift; sourceTree = "<group>"; };
+		8436853F1E21B22000EB3EAD /* SVViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SVViewController.swift; sourceTree = "<group>"; };
+		843685441E21CE5400EB3EAD /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		F07CE0C073AAD7A7761FC236 /* Pods_MuseTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MuseTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +110,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				843685451E21CE5400EB3EAD /* MapKit.framework in Frameworks */,
+				7232A798DD86B11E07EDA90B /* Pods_Muse.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +119,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4024AF6BAF28957AEA9C6A52 /* Pods_MuseTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +127,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CC5DF704F3A7B6C1C486A262 /* Pods_MuseUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +141,8 @@
 				1846E5701E21883C007C2AA9 /* MuseTests */,
 				1846E57B1E21883C007C2AA9 /* MuseUITests */,
 				1846E5571E21883C007C2AA9 /* Products */,
+				6DF5749C89983B6456B58461 /* Pods */,
+				87EF028AA3D3E167DA89B8F8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,8 +159,19 @@
 		1846E5581E21883C007C2AA9 /* Muse */ = {
 			isa = PBXGroup;
 			children = (
+				8436853A1E21B17F00EB3EAD /* SVSlidingPanelViewController.swift */,
+				8436853C1E21B22000EB3EAD /* SVDetailViewController.swift */,
+				8436853D1E21B22000EB3EAD /* SVMenuOptionManager.swift */,
+				8436853E1E21B22000EB3EAD /* SVMenuViewController.swift */,
+				8436853F1E21B22000EB3EAD /* SVViewController.swift */,
+				843685381E21AA0700EB3EAD /* bgVideo.mp4 */,
+				8436851B1E21A43500EB3EAD /* Fonts */,
+				8436851A1E21A42C00EB3EAD /* FoldingCell */,
 				1846E5591E21883C007C2AA9 /* AppDelegate.swift */,
+				843685321E21A48100EB3EAD /* DemoCell.swift */,
 				1846E55B1E21883C007C2AA9 /* ViewController.swift */,
+				843685341E21A87000EB3EAD /* LoginViewController.swift */,
+				843685181E21A3F500EB3EAD /* MainTableViewController.swift */,
 				1846E55D1E21883C007C2AA9 /* Main.storyboard */,
 				1846E5631E21883C007C2AA9 /* Assets.xcassets */,
 				1846E5651E21883C007C2AA9 /* LaunchScreen.storyboard */,
@@ -128,6 +199,55 @@
 			path = MuseUITests;
 			sourceTree = "<group>";
 		};
+		6DF5749C89983B6456B58461 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				56E4DFEA11A3459DA80CAE37 /* Pods-Muse.debug.xcconfig */,
+				7FF695A39ECFA5524204F6C9 /* Pods-Muse.release.xcconfig */,
+				6467799F8B4A6974EBE0F58A /* Pods-MuseTests.debug.xcconfig */,
+				27F39C8E8D610B02D57742B2 /* Pods-MuseTests.release.xcconfig */,
+				00EDEB04DE0C3C30E4018CF4 /* Pods-MuseUITests.debug.xcconfig */,
+				3356EECB444DD9701653AAAF /* Pods-MuseUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8436851A1E21A42C00EB3EAD /* FoldingCell */ = {
+			isa = PBXGroup;
+			children = (
+				843685301E21A46100EB3EAD /* FoldingCell.swift */,
+			);
+			name = FoldingCell;
+			sourceTree = "<group>";
+		};
+		8436851B1E21A43500EB3EAD /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				8436851C1E21A44F00EB3EAD /* OpenSans-Bold.ttf */,
+				8436851D1E21A44F00EB3EAD /* OpenSans-BoldItalic.ttf */,
+				8436851E1E21A44F00EB3EAD /* OpenSans-ExtraBold.ttf */,
+				8436851F1E21A44F00EB3EAD /* OpenSans-ExtraBoldItalic.ttf */,
+				843685201E21A44F00EB3EAD /* OpenSans-Italic.ttf */,
+				843685211E21A44F00EB3EAD /* OpenSans-Light.ttf */,
+				843685221E21A44F00EB3EAD /* OpenSans-LightItalic.ttf */,
+				843685231E21A44F00EB3EAD /* OpenSans-Regular.ttf */,
+				843685241E21A44F00EB3EAD /* OpenSans-Semibold.ttf */,
+				843685251E21A44F00EB3EAD /* OpenSans-SemiboldItalic.ttf */,
+			);
+			name = Fonts;
+			sourceTree = "<group>";
+		};
+		87EF028AA3D3E167DA89B8F8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				843685441E21CE5400EB3EAD /* MapKit.framework */,
+				4BAC73B6636F24E1FF1BB2FA /* Pods_Muse.framework */,
+				F07CE0C073AAD7A7761FC236 /* Pods_MuseTests.framework */,
+				51E3A8E9D74A9DF787678EF3 /* Pods_MuseUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +255,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1846E5811E21883C007C2AA9 /* Build configuration list for PBXNativeTarget "Muse" */;
 			buildPhases = (
+				80AA688ADEDE477353A14CB8 /* [CP] Check Pods Manifest.lock */,
 				1846E5521E21883C007C2AA9 /* Sources */,
 				1846E5531E21883C007C2AA9 /* Frameworks */,
 				1846E5541E21883C007C2AA9 /* Resources */,
+				82BA642A0913EEE751FD8794 /* [CP] Embed Pods Frameworks */,
+				ACB406A4E7A336A18868AC14 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -152,9 +275,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1846E5841E21883C007C2AA9 /* Build configuration list for PBXNativeTarget "MuseTests" */;
 			buildPhases = (
+				DE281D90DED759D4F8B8D2CD /* [CP] Check Pods Manifest.lock */,
 				1846E5691E21883C007C2AA9 /* Sources */,
 				1846E56A1E21883C007C2AA9 /* Frameworks */,
 				1846E56B1E21883C007C2AA9 /* Resources */,
+				D78E21D7F11BF1757AC13665 /* [CP] Embed Pods Frameworks */,
+				0311D816F8ABE5E60A12DDA6 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -170,9 +296,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1846E5871E21883C007C2AA9 /* Build configuration list for PBXNativeTarget "MuseUITests" */;
 			buildPhases = (
+				AE4D01755FF56DB4DD158DFC /* [CP] Check Pods Manifest.lock */,
 				1846E5741E21883C007C2AA9 /* Sources */,
 				1846E5751E21883C007C2AA9 /* Frameworks */,
 				1846E5761E21883C007C2AA9 /* Resources */,
+				CF9EA16B445A2CC7163C9E18 /* [CP] Embed Pods Frameworks */,
+				A3CE308B9303279ACA4724EA /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -238,9 +367,20 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8436852E1E21A44F00EB3EAD /* OpenSans-Semibold.ttf in Resources */,
+				8436852F1E21A44F00EB3EAD /* OpenSans-SemiboldItalic.ttf in Resources */,
 				1846E5671E21883C007C2AA9 /* LaunchScreen.storyboard in Resources */,
+				8436852D1E21A44F00EB3EAD /* OpenSans-Regular.ttf in Resources */,
+				843685391E21AA0700EB3EAD /* bgVideo.mp4 in Resources */,
+				8436852A1E21A44F00EB3EAD /* OpenSans-Italic.ttf in Resources */,
+				843685291E21A44F00EB3EAD /* OpenSans-ExtraBoldItalic.ttf in Resources */,
 				1846E5641E21883C007C2AA9 /* Assets.xcassets in Resources */,
+				8436852C1E21A44F00EB3EAD /* OpenSans-LightItalic.ttf in Resources */,
+				843685261E21A44F00EB3EAD /* OpenSans-Bold.ttf in Resources */,
 				1846E55F1E21883C007C2AA9 /* Main.storyboard in Resources */,
+				8436852B1E21A44F00EB3EAD /* OpenSans-Light.ttf in Resources */,
+				843685271E21A44F00EB3EAD /* OpenSans-BoldItalic.ttf in Resources */,
+				843685281E21A44F00EB3EAD /* OpenSans-ExtraBold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,12 +400,159 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0311D816F8ABE5E60A12DDA6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MuseTests/Pods-MuseTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		80AA688ADEDE477353A14CB8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		82BA642A0913EEE751FD8794 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Muse/Pods-Muse-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A3CE308B9303279ACA4724EA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MuseUITests/Pods-MuseUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ACB406A4E7A336A18868AC14 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Muse/Pods-Muse-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AE4D01755FF56DB4DD158DFC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		CF9EA16B445A2CC7163C9E18 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MuseUITests/Pods-MuseUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D78E21D7F11BF1757AC13665 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MuseTests/Pods-MuseTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DE281D90DED759D4F8B8D2CD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		1846E5521E21883C007C2AA9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				843685351E21A87100EB3EAD /* LoginViewController.swift in Sources */,
+				843685191E21A3F500EB3EAD /* MainTableViewController.swift in Sources */,
+				843685401E21B22000EB3EAD /* SVDetailViewController.swift in Sources */,
+				843685311E21A46100EB3EAD /* FoldingCell.swift in Sources */,
+				8436853B1E21B18000EB3EAD /* SVSlidingPanelViewController.swift in Sources */,
+				843685331E21A48100EB3EAD /* DemoCell.swift in Sources */,
+				843685411E21B22000EB3EAD /* SVMenuOptionManager.swift in Sources */,
 				1846E55C1E21883C007C2AA9 /* ViewController.swift in Sources */,
+				843685421E21B22000EB3EAD /* SVMenuViewController.swift in Sources */,
+				843685431E21B22000EB3EAD /* SVViewController.swift in Sources */,
 				1846E55A1E21883C007C2AA9 /* AppDelegate.swift in Sources */,
 				1846E5621E21883C007C2AA9 /* Muse.xcdatamodeld in Sources */,
 			);
@@ -417,6 +704,7 @@
 		};
 		1846E5821E21883C007C2AA9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 56E4DFEA11A3459DA80CAE37 /* Pods-Muse.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = CL285P5L46;
@@ -430,6 +718,7 @@
 		};
 		1846E5831E21883C007C2AA9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7FF695A39ECFA5524204F6C9 /* Pods-Muse.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = CL285P5L46;
@@ -443,6 +732,7 @@
 		};
 		1846E5851E21883C007C2AA9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6467799F8B4A6974EBE0F58A /* Pods-MuseTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -458,6 +748,7 @@
 		};
 		1846E5861E21883C007C2AA9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 27F39C8E8D610B02D57742B2 /* Pods-MuseTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -473,6 +764,7 @@
 		};
 		1846E5881E21883C007C2AA9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 00EDEB04DE0C3C30E4018CF4 /* Pods-MuseUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = CL285P5L46;
@@ -487,6 +779,7 @@
 		};
 		1846E5891E21883C007C2AA9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3356EECB444DD9701653AAAF /* Pods-MuseUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = CL285P5L46;
@@ -518,6 +811,7 @@
 				1846E5831E21883C007C2AA9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1846E5841E21883C007C2AA9 /* Build configuration list for PBXNativeTarget "MuseTests" */ = {
 			isa = XCConfigurationList;
@@ -526,6 +820,7 @@
 				1846E5861E21883C007C2AA9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1846E5871E21883C007C2AA9 /* Build configuration list for PBXNativeTarget "MuseUITests" */ = {
 			isa = XCConfigurationList;
@@ -534,6 +829,7 @@
 				1846E5891E21883C007C2AA9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

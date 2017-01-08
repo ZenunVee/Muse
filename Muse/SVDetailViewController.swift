@@ -19,8 +19,8 @@ class SVDetailViewController: UIViewController {
     
     
     override func viewDidLoad() {
-        self.navigationItem.title = "Car Logo"
-         self.logoImageView?.image = UIImage(named: SVMenuOptions.Audi.menuTitle)
+        self.navigationItem.title = SVMenuOptions.Home.menuTitle
+         self.logoImageView?.image = UIImage(named: SVMenuOptions.Home.menuTitle)
     }
 
 }

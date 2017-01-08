@@ -13,11 +13,12 @@
 import UIKit
 
 class SVMenuViewController: UIViewController {
+    @IBOutlet var headerView: UIView!
     
     @IBOutlet weak var contentTableView: UITableView!
     
     let cellID = "MenuOptionTableViewCell"
-    let menuItems = [SVMenuOptions.Audi, SVMenuOptions.BMW, SVMenuOptions.Honda, SVMenuOptions.Tata, SVMenuOptions.Toyota, SVMenuOptions.Suzuki,SVMenuOptions.Nissan, SVMenuOptions.Volkswagen, SVMenuOptions.Volvo, SVMenuOptions.Jaguar, SVMenuOptions.Fiat, SVMenuOptions.Ford]
+    let menuItems = [SVMenuOptions.Home, SVMenuOptions.Castings, SVMenuOptions.Information, SVMenuOptions.Settings]
     var menuSelectionClosure: ((SVMenuOptions, Bool)-> Void)!
     
     
@@ -35,7 +36,7 @@ extension SVMenuViewController:UITableViewDelegate
     
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat
     {
-        return UITableViewAutomaticDimension
+        return 100
     }
     
     
@@ -52,7 +53,13 @@ extension SVMenuViewController:UITableViewDelegate
 
 extension SVMenuViewController:UITableViewDataSource
 {
-    
+  //
+    func tableView(_ tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
+        return 100
+    }
+    func tableView(_ tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
+        return headerView
+    }
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int
     {
         return menuItems.count
@@ -63,7 +70,7 @@ extension SVMenuViewController:UITableViewDataSource
     {
         let cell = tableView.dequeueReusableCell(withIdentifier: cellID, for: indexPath)
         let menuItem = self.menuItems[indexPath.row]
-        
+        cell.backgroundColor = UIColor.init(colorLiteralRed: 186/255, green: 223/255, blue: 255/255, alpha: 1.0)
         cell.textLabel?.text = menuItem.menuTitle
         return cell
     }

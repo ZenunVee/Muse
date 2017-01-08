@@ -13,10 +13,10 @@
 import UIKit
 
 enum SVMenuOptions {
-    case Audi
-    case BMW
-    case Honda
-    case Tata
+    case Home
+    case Castings
+    case Information
+    case Settings
     case Toyota
     case Suzuki
     case Nissan
@@ -64,6 +64,7 @@ class SVMenuOptionManager: NSObject {
         lefthamburgerMenuController.menuSelectionClosure = {[weak self](selectedMenuOption: SVMenuOptions, animated:Bool) in
             
             self?.showScreenForMenuOption(menuOntion: selectedMenuOption, animation: animated)
+            
         }
         
         righthamburgerMenuController.menuSelectionClosure = {[weak self](selectedMenuOption: SVMenuOptions, animated:Bool) in
@@ -76,11 +77,13 @@ class SVMenuOptionManager: NSObject {
     
     func showScreenForMenuOption(menuOntion: SVMenuOptions, animation animated: Bool) {
         
-        
+        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+
         let navigationController = self.slidingPanel.centerPanel as! UINavigationController
         let detailController = navigationController.viewControllers.first as! SVDetailViewController
         detailController.logoImageView.image = UIImage(named: menuOntion.menuTitle)
         
+        let  vc : MainTableViewController = storyboard.instantiateViewController(withIdentifier: "MainTableViewController") as! MainTableViewController
         self.slidingPanel.showCenterPanel(animated: animated)
         
     }

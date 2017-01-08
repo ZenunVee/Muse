@@ -14,7 +14,8 @@ class LoginViewController: UIViewController {
     @IBOutlet weak var descriptionLabel: UILabel!
     @IBOutlet weak var learnMore: UIButton!
     var player: AVPlayer?
-    
+    var window: UIWindow?
+
     override func viewWillAppear(_ animated: Bool) {
         
         loadPlayer()
@@ -34,7 +35,7 @@ class LoginViewController: UIViewController {
         NotificationCenter.default.addObserver(self, selector: #selector(LoginViewController.playerItemDidReachEnd(notification:)), name: NSNotification.Name.AVPlayerItemDidPlayToEndTime, object: player.currentItem)
         
         self.view.addSubview(appLogo)
-        self.view.addSubview(descriptionLabel)
+        //self.view.addSubview(descriptionLabel)
         self.view.addSubview(learnMore)
         
     }
@@ -46,13 +47,17 @@ class LoginViewController: UIViewController {
         }
     }
     
+    @IBAction func learnMore(_ sender: Any) {
+        
+         let vc = SVMenuOptionManager.sharedInstance.slidingPanel
+         self.present(vc, animated: true, completion: nil)
+        
+
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        UIView.animate(withDuration: 2.0, delay: 0.0, options: [], animations: {
-            //self.appLogo.frame = CGRect(origin: CGPoint(x: 38,y:0), size: CGSize(width: 300, height: 150))
-            self.appLogo.frame.origin = CGPoint(x: 40, y: 0)
-            }, completion: nil)
+
         UIView.animate(withDuration: 1.5, delay: 2.0, options: [], animations: {
             self.learnMore.alpha = 1.0
             }, completion: nil)

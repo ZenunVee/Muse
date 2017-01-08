@@ -12,11 +12,12 @@ class DemoCell: FoldingCell {
   
   @IBOutlet weak var closeNumberLabel: UILabel!
   @IBOutlet weak var openNumberLabel: UILabel!
+  @IBOutlet var barView: UIView!
   
   var number: Int = 0 {
     didSet {
       closeNumberLabel.text = String(number)
-      openNumberLabel.text = String(number)
+      //openNumberLabel.text = "Casting"//String(number)
     }
   }
   override func awakeFromNib() {
