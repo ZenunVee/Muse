@@ -38,6 +38,9 @@
 		843685421E21B22000EB3EAD /* SVMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8436853E1E21B22000EB3EAD /* SVMenuViewController.swift */; };
 		843685431E21B22000EB3EAD /* SVViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8436853F1E21B22000EB3EAD /* SVViewController.swift */; };
 		843685451E21CE5400EB3EAD /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 843685441E21CE5400EB3EAD /* MapKit.framework */; };
+		843685471E22A88D00EB3EAD /* CalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843685461E22A88D00EB3EAD /* CalendarViewController.swift */; };
+		843685491E22A8A000EB3EAD /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843685481E22A8A000EB3EAD /* ChatViewController.swift */; };
+		8436854B1E22B43900EB3EAD /* MUSELogin.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 8436854A1E22B43900EB3EAD /* MUSELogin.mp4 */; };
 		CC5DF704F3A7B6C1C486A262 /* Pods_MuseUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51E3A8E9D74A9DF787678EF3 /* Pods_MuseUITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -102,6 +105,9 @@
 		8436853E1E21B22000EB3EAD /* SVMenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SVMenuViewController.swift; sourceTree = "<group>"; };
 		8436853F1E21B22000EB3EAD /* SVViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SVViewController.swift; sourceTree = "<group>"; };
 		843685441E21CE5400EB3EAD /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		843685461E22A88D00EB3EAD /* CalendarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarViewController.swift; sourceTree = "<group>"; };
+		843685481E22A8A000EB3EAD /* ChatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		8436854A1E22B43900EB3EAD /* MUSELogin.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = MUSELogin.mp4; sourceTree = "<group>"; };
 		F07CE0C073AAD7A7761FC236 /* Pods_MuseTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MuseTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -165,6 +171,7 @@
 				8436853E1E21B22000EB3EAD /* SVMenuViewController.swift */,
 				8436853F1E21B22000EB3EAD /* SVViewController.swift */,
 				843685381E21AA0700EB3EAD /* bgVideo.mp4 */,
+				8436854A1E22B43900EB3EAD /* MUSELogin.mp4 */,
 				8436851B1E21A43500EB3EAD /* Fonts */,
 				8436851A1E21A42C00EB3EAD /* FoldingCell */,
 				1846E5591E21883C007C2AA9 /* AppDelegate.swift */,
@@ -177,6 +184,8 @@
 				1846E5651E21883C007C2AA9 /* LaunchScreen.storyboard */,
 				1846E5681E21883C007C2AA9 /* Info.plist */,
 				1846E5601E21883C007C2AA9 /* Muse.xcdatamodeld */,
+				843685461E22A88D00EB3EAD /* CalendarViewController.swift */,
+				843685481E22A8A000EB3EAD /* ChatViewController.swift */,
 			);
 			path = Muse;
 			sourceTree = "<group>";
@@ -372,6 +381,7 @@
 				1846E5671E21883C007C2AA9 /* LaunchScreen.storyboard in Resources */,
 				8436852D1E21A44F00EB3EAD /* OpenSans-Regular.ttf in Resources */,
 				843685391E21AA0700EB3EAD /* bgVideo.mp4 in Resources */,
+				8436854B1E22B43900EB3EAD /* MUSELogin.mp4 in Resources */,
 				8436852A1E21A44F00EB3EAD /* OpenSans-Italic.ttf in Resources */,
 				843685291E21A44F00EB3EAD /* OpenSans-ExtraBoldItalic.ttf in Resources */,
 				1846E5641E21883C007C2AA9 /* Assets.xcassets in Resources */,
@@ -551,7 +561,9 @@
 				843685331E21A48100EB3EAD /* DemoCell.swift in Sources */,
 				843685411E21B22000EB3EAD /* SVMenuOptionManager.swift in Sources */,
 				1846E55C1E21883C007C2AA9 /* ViewController.swift in Sources */,
+				843685471E22A88D00EB3EAD /* CalendarViewController.swift in Sources */,
 				843685421E21B22000EB3EAD /* SVMenuViewController.swift in Sources */,
+				843685491E22A8A000EB3EAD /* ChatViewController.swift in Sources */,
 				843685431E21B22000EB3EAD /* SVViewController.swift in Sources */,
 				1846E55A1E21883C007C2AA9 /* AppDelegate.swift in Sources */,
 				1846E5621E21883C007C2AA9 /* Muse.xcdatamodeld in Sources */,

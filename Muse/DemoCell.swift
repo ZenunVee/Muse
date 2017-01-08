@@ -8,11 +8,19 @@
 
 import UIKit
 
+protocol CustomCellDeerCallsDelegate {
+    func showAlert(title:String, message:String);
+}
 class DemoCell: FoldingCell {
-  
+    var delegate:CustomCellDeerCallsDelegate?
+
   @IBOutlet weak var closeNumberLabel: UILabel!
   @IBOutlet weak var openNumberLabel: UILabel!
   @IBOutlet var barView: UIView!
+    @IBOutlet var firstContainerView: UIView!
+    @IBOutlet var leftView: UIView!
+    @IBOutlet var dayLabel: UILabel!
+    @IBOutlet var timeLabel: UILabel!
   
   var number: Int = 0 {
     didSet {
@@ -40,5 +48,9 @@ extension DemoCell {
   
   @IBAction func buttonHandler(_ sender: AnyObject) {
     print("tap")
+
+    self.delegate?.showAlert(title: "DDDDD", message: "tacos")
+
+    
   }
 }

@@ -23,7 +23,7 @@ class LoginViewController: UIViewController {
     }
     
     func loadPlayer(){
-        let path = Bundle.main.path(forResource: "bgVideo", ofType: "mp4")
+        let path = Bundle.main.path(forResource: "MUSELogin", ofType: "mp4")
         let player = AVPlayer(url: NSURL(fileURLWithPath: path!) as URL)
         let playerLayer = AVPlayerLayer(player: player)
         playerLayer.frame = self.view.frame

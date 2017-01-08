@@ -24,7 +24,7 @@
 import UIKit
 import MapKit
 
-class MainTableViewController: UITableViewController {
+class MainTableViewController: UITableViewController, CustomCellDeerCallsDelegate {
     
     let kCloseCellHeight: CGFloat = 179
     let kOpenCellHeight: CGFloat = 488
@@ -46,6 +46,9 @@ class MainTableViewController: UITableViewController {
     
     override func viewWillAppear(_ animated: Bool) {
         self.navigationController?.isNavigationBarHidden = false
+        //self.navigationController?.navigationBar.setBackgroundImage(UIImage(), for: .default)
+        //self.navigationController?.navigationBar.shadowImage = UIImage()
+        //self.navigationController?.navigationBar.isTranslucent = true
     }
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -81,12 +84,32 @@ class MainTableViewController: UITableViewController {
         cell.selectedAnimation(true, animated: false, completion: nil)
       }
       
-      cell.number = indexPath.row
+      cell.number = indexPath.row+1
     }
 
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "FoldingCell", for: indexPath) as! DemoCell
-        cell.openNumberLabel.text = "tacos"
+        if indexPath.row == 0 {
+            cell.openNumberLabel.text = "Casting"
+            cell.barView.backgroundColor = UIColor(red: 34/255, green: 170/255, blue: 214/255, alpha: 1.0)
+            cell.firstContainerView.backgroundColor = UIColor(red: 34/255, green: 170/255, blue: 214/255, alpha: 1.0)
+            cell.leftView.backgroundColor =  UIColor(red: 34/255, green: 170/255, blue: 214/255, alpha: 1.0)
+            cell.timeLabel.text = "8:30 AM"
+
+
+        }else if indexPath.row == 1 {
+            cell.openNumberLabel.text = "Booking"
+            cell.barView.backgroundColor = UIColor(red: 175/255, green: 73/255, blue: 153/255, alpha: 1.0)
+            cell.firstContainerView.backgroundColor = UIColor(red: 175/255, green: 73/255, blue: 153/255, alpha: 1.0)
+            cell.leftView.backgroundColor =   UIColor(red: 175/255, green: 73/255, blue: 153/255, alpha: 1.0)
+            cell.timeLabel.text = "7:30 PM"
+
+            
+        }else if indexPath.row == 2 {
+            cell.openNumberLabel.text = "Photo Shoot"
+            cell.timeLabel.text = "1:30 PM"
+            cell.dayLabel.text = "1/12/17"
+        }
         
         return cell
     }
@@ -123,4 +146,15 @@ class MainTableViewController: UITableViewController {
 
         
     }
+    
+    
+    func showAlert(title:String, message:String){
+        var alert = UIAlertController(title: "dddddd", message: "nacos", preferredStyle: .actionSheet)
+        alert.addAction(UIAlertAction(title: "OK", style: UIAlertActionStyle.default, handler: nil))
+        
+        self.present(alert, animated: true, completion: nil)
+        
+    }
+    
+    
 }
