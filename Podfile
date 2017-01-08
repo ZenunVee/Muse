@@ -8,6 +8,7 @@ target 'Muse' do
   # Pods for Muse
   pod 'FoldingCell’, '~> 2.0.3' 
   pod 'Firebase/Core'
+  pod 'Firebase/Auth'
 
   target 'MuseTests' do
     inherit! :search_paths
