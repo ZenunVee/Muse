@@ -41,6 +41,8 @@
 		843685471E22A88D00EB3EAD /* CalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843685461E22A88D00EB3EAD /* CalendarViewController.swift */; };
 		843685491E22A8A000EB3EAD /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843685481E22A8A000EB3EAD /* ChatViewController.swift */; };
 		8436854B1E22B43900EB3EAD /* MUSELogin.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 8436854A1E22B43900EB3EAD /* MUSELogin.mp4 */; };
+		8436854D1E22BC7B00EB3EAD /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8436854C1E22BC7B00EB3EAD /* GoogleService-Info.plist */; };
+		8436854F1E22BE2300EB3EAD /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8436854E1E22BE2300EB3EAD /* SignUpViewController.swift */; };
 		CC5DF704F3A7B6C1C486A262 /* Pods_MuseUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51E3A8E9D74A9DF787678EF3 /* Pods_MuseUITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -108,6 +110,8 @@
 		843685461E22A88D00EB3EAD /* CalendarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarViewController.swift; sourceTree = "<group>"; };
 		843685481E22A8A000EB3EAD /* ChatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
 		8436854A1E22B43900EB3EAD /* MUSELogin.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = MUSELogin.mp4; sourceTree = "<group>"; };
+		8436854C1E22BC7B00EB3EAD /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		8436854E1E22BE2300EB3EAD /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		F07CE0C073AAD7A7761FC236 /* Pods_MuseTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MuseTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -186,6 +190,8 @@
 				1846E5601E21883C007C2AA9 /* Muse.xcdatamodeld */,
 				843685461E22A88D00EB3EAD /* CalendarViewController.swift */,
 				843685481E22A8A000EB3EAD /* ChatViewController.swift */,
+				8436854C1E22BC7B00EB3EAD /* GoogleService-Info.plist */,
+				8436854E1E22BE2300EB3EAD /* SignUpViewController.swift */,
 			);
 			path = Muse;
 			sourceTree = "<group>";
@@ -385,6 +391,7 @@
 				8436852A1E21A44F00EB3EAD /* OpenSans-Italic.ttf in Resources */,
 				843685291E21A44F00EB3EAD /* OpenSans-ExtraBoldItalic.ttf in Resources */,
 				1846E5641E21883C007C2AA9 /* Assets.xcassets in Resources */,
+				8436854D1E22BC7B00EB3EAD /* GoogleService-Info.plist in Resources */,
 				8436852C1E21A44F00EB3EAD /* OpenSans-LightItalic.ttf in Resources */,
 				843685261E21A44F00EB3EAD /* OpenSans-Bold.ttf in Resources */,
 				1846E55F1E21883C007C2AA9 /* Main.storyboard in Resources */,
@@ -562,6 +569,7 @@
 				843685411E21B22000EB3EAD /* SVMenuOptionManager.swift in Sources */,
 				1846E55C1E21883C007C2AA9 /* ViewController.swift in Sources */,
 				843685471E22A88D00EB3EAD /* CalendarViewController.swift in Sources */,
+				8436854F1E22BE2300EB3EAD /* SignUpViewController.swift in Sources */,
 				843685421E21B22000EB3EAD /* SVMenuViewController.swift in Sources */,
 				843685491E22A8A000EB3EAD /* ChatViewController.swift in Sources */,
 				843685431E21B22000EB3EAD /* SVViewController.swift in Sources */,

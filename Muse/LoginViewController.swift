@@ -8,6 +8,8 @@
 
 import UIKit
 import AVFoundation
+import Firebase
+
 
 class LoginViewController: UIViewController {
     @IBOutlet weak var appLogo: UIImageView!
